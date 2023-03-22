@@ -33,7 +33,7 @@ export class CdkCloudFrontInvalidation extends Construct {
       `CloudFrontInvalidation-${Date.now()}`,
       {
         onCreate: {
-          physicalResourceId: PhysicalResourceId.of(`${distributionId}-${Date.now()}`),
+          physicalResourceId: PhysicalResourceId.of(`CloudFrontInvalidation-${Date.now()}`),
           service: 'CloudFront',
           action: 'createInvalidation',
           parameters: {
