@@ -1,11 +1,11 @@
 import { Aws } from 'aws-cdk-lib';
-import { IDistribution } from 'aws-cdk-lib/aws-cloudfront';
+import { Distribution } from 'aws-cdk-lib/aws-cloudfront';
 import { PolicyStatement } from 'aws-cdk-lib/aws-iam';
 import { AwsCustomResource, AwsCustomResourcePolicy, PhysicalResourceId } from 'aws-cdk-lib/custom-resources';
 import { Construct } from 'constructs';
 
 export interface CdkCloudFrontInvalidationProps {
-  readonly distribution: IDistribution;
+  readonly distribution: Distribution;
 }
 
 export class CdkCloudFrontInvalidation extends Construct {

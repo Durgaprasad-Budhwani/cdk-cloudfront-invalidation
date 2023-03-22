@@ -130,17 +130,17 @@ const cdkCloudFrontInvalidationProps: CdkCloudFrontInvalidationProps = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#cdk-cloudfront-invalidation.CdkCloudFrontInvalidationProps.property.distribution">distribution</a></code> | <code>aws-cdk-lib.aws_cloudfront.IDistribution</code> | *No description.* |
+| <code><a href="#cdk-cloudfront-invalidation.CdkCloudFrontInvalidationProps.property.distribution">distribution</a></code> | <code>aws-cdk-lib.aws_cloudfront.Distribution</code> | *No description.* |
 
 ---
 
 ##### `distribution`<sup>Required</sup> <a name="distribution" id="cdk-cloudfront-invalidation.CdkCloudFrontInvalidationProps.property.distribution"></a>
 
 ```typescript
-public readonly distribution: IDistribution;
+public readonly distribution: Distribution;
 ```
 
-- *Type:* aws-cdk-lib.aws_cloudfront.IDistribution
+- *Type:* aws-cdk-lib.aws_cloudfront.Distribution
 
 ---
 
