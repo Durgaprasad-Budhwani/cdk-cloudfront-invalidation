@@ -6,6 +6,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   name: 'cdk-cloudfront-invalidation',
   repositoryUrl: 'git@github.com:Durgaprasad-Budhwani/cdk-cloudfront-invalidation.git',
+  majorVersion: 1,
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
